@@ -1,12 +1,10 @@
 import React from "react";
-
-import VideoEvent from "../components/SignIn/VideoEvent";
-
+import Aside from '../components/SignIn/Aside';
 export default function SignIn(){
 
     return (
 			<div>
-				<VideoEvent/>
+				<Aside />
 			</div>
 		);
 }

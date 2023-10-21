@@ -1,0 +1,16 @@
+.asideSign {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 30%;
+	position: absolute;
+	text-align: center;
+	align-items: center;
+    height: 100%;
+	z-index: 1;
+	margin-top: 8%;
+}
+
+.aasideSign__logo {
+    width: 20%;
+}

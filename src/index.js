@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
 import SignIn from './page/SignIn';
+import Home from './page/Home';
 
+import './styles/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,7 @@ root.render(
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<SignIn />} />
+				<Route path='/home' element={<Home />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>

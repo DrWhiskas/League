@@ -1,13 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Video from '../../media/Event.mp4';
+import '../../styles/SignIn/video.css'
 
-export default function VideoEvent() {
-
-	  
+export default function VideoEvent(video) {
 	return (
 		<section className="videoEvent">
-			<video width="640" height="360"  autoPlay loop>
-				<source src={Video} />
+			<video className='video' autoPlay={true} loop muted>
+				<source src={video} />
 			</video>
 		</section>
 	);
